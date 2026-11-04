@@ -21,7 +21,7 @@ export default function Login() {
   }
 
   return (
-    <form onSubmit={onSubmit}>
+    <form className="login" onSubmit={onSubmit}>
       <h1>Вход</h1>
       {error && <p>{error}</p>}
       <label>
