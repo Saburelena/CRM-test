@@ -1,0 +1,49 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  color: #111;
+  background: #fff;
+  font: 15px/1.4 Arial, sans-serif;
+}
+
+a { color: inherit; }
+
+header {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #111;
+  padding: 10px 16px;
+}
+
+nav { display: flex; gap: 12px; }
+
+.who { margin-left: auto; }
+
+main, .pad { padding: 16px 20px 40px; }
+
+h1 { font-size: 22px; margin: 0 0 12px; }
+h2 { font-size: 18px; margin: 20px 0 8px; }
+
+table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+th, td { border: 1px solid #111; padding: 6px 8px; text-align: left; vertical-align: top; }
+
+input, textarea, select, button {
+  font: inherit;
+  color: #111;
+  background: #fff;
+  border: 1px solid #111;
+  padding: 4px 8px;
+}
+
+button { cursor: pointer; }
+
+label { display: grid; gap: 4px; margin: 8px 0; }
+textarea { width: 100%; min-height: 70px; }
+.login { max-width: 280px; margin: 48px auto; }
+.login input, .stack textarea, form input[type="text"], form input:not([type]) { width: 100%; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+.error { color: #900; }
